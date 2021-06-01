@@ -1,0 +1,41 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #2f3135;
+}
+.login > Button {
+  width: 300px;
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+}
+.login > Button:hover {
+  background-color: white;
+  color: #738adb;
+}
+.login > div > img {
+  object-fit: contain;
+  height: 250px;
+} 
